@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92B6BD88-6F85-4925-B701-BA8900732D35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanicoApp.UI", "src\TallerMecanicoApp.UI\TallerMecanicoApp.UI.csproj", "{7EC2B2C4-C43B-4CD1-BBCD-970E9798B0B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanicoApp.Business", "src\TallerMecanicoApp.Business\TallerMecanicoApp.Business.csproj", "{B8D6BC6F-34B3-41E5-96F6-9001C1AC0924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanicoApp.Data", "src\TallerMecanicoApp.Data\TallerMecanicoApp.Data.csproj", "{2F9B725C-AE6B-4EA4-B5CB-A73D23860924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanicoApp.Common", "src\TallerMecanicoApp.Common\TallerMecanicoApp.Common.csproj", "{56923FFD-7FB7-4FE9-B001-A104671163EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EC2B2C4-C43B-4CD1-BBCD-970E9798B0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC2B2C4-C43B-4CD1-BBCD-970E9798B0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC2B2C4-C43B-4CD1-BBCD-970E9798B0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC2B2C4-C43B-4CD1-BBCD-970E9798B0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D6BC6F-34B3-41E5-96F6-9001C1AC0924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D6BC6F-34B3-41E5-96F6-9001C1AC0924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D6BC6F-34B3-41E5-96F6-9001C1AC0924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D6BC6F-34B3-41E5-96F6-9001C1AC0924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F9B725C-AE6B-4EA4-B5CB-A73D23860924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9B725C-AE6B-4EA4-B5CB-A73D23860924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9B725C-AE6B-4EA4-B5CB-A73D23860924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9B725C-AE6B-4EA4-B5CB-A73D23860924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56923FFD-7FB7-4FE9-B001-A104671163EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56923FFD-7FB7-4FE9-B001-A104671163EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56923FFD-7FB7-4FE9-B001-A104671163EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56923FFD-7FB7-4FE9-B001-A104671163EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EC2B2C4-C43B-4CD1-BBCD-970E9798B0B1} = {92B6BD88-6F85-4925-B701-BA8900732D35}
+		{B8D6BC6F-34B3-41E5-96F6-9001C1AC0924} = {92B6BD88-6F85-4925-B701-BA8900732D35}
+		{2F9B725C-AE6B-4EA4-B5CB-A73D23860924} = {92B6BD88-6F85-4925-B701-BA8900732D35}
+		{56923FFD-7FB7-4FE9-B001-A104671163EE} = {92B6BD88-6F85-4925-B701-BA8900732D35}
+	EndGlobalSection
+EndGlobal
